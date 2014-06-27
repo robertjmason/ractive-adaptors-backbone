@@ -125,7 +125,7 @@
 			}
 
 			// Otherwise if this is a POJO, reset the model
-			this.value.reset( object );
+			this.value.clear().set(object); 
 		}
 	};
 
